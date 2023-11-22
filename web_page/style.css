@@ -1,0 +1,159 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto&display=swap');
+
+.flex{
+    display: flex;
+}
+img{
+    width: 93px;
+}
+ul li{
+    list-style: none;
+    margin: 0 8px;
+}
+nav{
+    justify-content: space-evenly;
+    
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.semibold{
+    font-weight: bolder;
+}
+
+.right > button{
+    margin: 8px;
+    padding:5px;
+    background-color: #ed017f;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.left_main{
+    flex-direction: column;
+    width: 30%;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-content: space-around;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 7px;
+    /* font-weight: bolder; */
+    line-height: 1.8;
+    text-align:left;
+    /* background-color:blue; */
+}
+p{
+    letter-spacing: 1px;
+    font-weight: bolder;
+    line-height: 1.8;
+    /* background-color: aqua; */
+}
+
+.main_button{
+    gap:7px;
+    padding: 15px;
+}
+.button1{
+    background-color: #ed017f;
+    border: none;
+    border-radius: 5px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: aliceblue;
+}
+.button2{
+    background-color:white;
+    border: solid #ed017f;
+    border-radius: 5px;
+    line-height: 1.8;
+    font-size: 18px;
+    color:#ed017f;
+
+}
+.right_main{
+    justify-content: center;
+    align-items: center;
+}
+.right_main >img{
+    width:1000px;
+    height: 600px;
+    object-fit:contain;
+}
+.position{
+    justify-content: center;
+    
+   
+}
+.logo_button{
+    font-size: 15px;
+    background-color:white;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.car{
+    color: #ed017f;
+}
+
+.bi-search{
+    color: #ed017f;
+    align-items: center;
+}
+
+.social-icons .bi{
+    margin-top: 120px;
+    width: 22px;
+    height: 80px;
+    border-radius: 50%;
+    /* line-height: 60px;
+    font-size: 20px; */
+    padding-right: 7px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    
+}
+.phone{
+    color: #ed017f;
+}
+.facebook{
+    background-color: none;
+    color: blue;
+}
+.youtube{
+    color:rgb(224, 28, 28);
+}
+.linkedin{
+    color: blue;
+}
+.instagram{
+    color: #ed017f;
+}
+
+.right_button{
+    width: 15%;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.house{
+    color: #ed017f;
+    padding:1px;
+    margin-left: 1px;
+   
+}
+
